@@ -156,3 +156,4 @@ if not filtered_df.empty:
     st.plotly_chart(fig, use_container_width=True)
 else:
     st.info("No data available for density plot.")
+
